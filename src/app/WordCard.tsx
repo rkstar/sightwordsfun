@@ -5,10 +5,11 @@ import CardContent from '@material-ui/core/CardContent';
 
 interface Props {
   word: string;
+  width: number;
 }
 
-const WordCard = ({word}: Props) => (
-  <View style={styles.cardView}>
+const WordCard = ({word, width}: Props) => (
+  <View style={[styles.cardView, {width}]}>
     <View style={styles.card}>
       <Card elevation={4}>
         <CardContent>
@@ -21,8 +22,8 @@ const WordCard = ({word}: Props) => (
 
 const styles = StyleSheet.create({
   cardView: {
-    width: '100%',
     alignItems: 'center',
+    alignContent: 'stretch',
   },
   card: {
     width: '60%',

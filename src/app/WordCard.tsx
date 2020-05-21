@@ -20,6 +20,7 @@ const WordCard = ({word}: Props) => (
 const styles = StyleSheet.create({
   card: {
     width: '60%',
+    textAlign: 'center',
   },
   text: {
     color: 'black',

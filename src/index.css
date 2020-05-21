@@ -1,13 +1,17 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700';
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+
+html,
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Roboto';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
